@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("./gareth-harper-yACpBcInUos-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.main-body {
+  padding: 100px 20px;
+}
+
+#color-heading {
+  text-align: right;
+  font-size: 50px;
+  padding-right: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-table {
+  display: color-table;
+  margin: 0 auto;
+}
+
+.color-table {
+  padding: 125px 50px;
+  border: 3px dotted black;
+  width: fit-content;
+  background-color: #d0c9c0;
+  border-top-right-radius: 25%;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 45%;
+  border-bottom-left-radius: 45%;
+}
+
+.colors > li {
+  display: inline;
+  list-style: none;
+  font-size: 25px;
+  margin: 75px;
+  padding: 75px;
+  border: 3px solid black;
+}
+
+.color1 {
+  color: rgb(45, 45, 45);
+  background-color: #7d1e6a;
+  border-radius: 50%;
+}
+
+.color2 {
+  color: rgb(45, 45, 45);
+  background-color: #eeb0b0;
+  border-radius: 50%;
+}
+
+.color3 {
+  color: rgb(45, 45, 45);
+  background-color: #ffe59d;
+  border-radius: 50%;
+}
+
+.color4 {
+  color: rgb(45, 45, 45);
+  background-color: #bde6f1;
+  border-radius: 50%;
+}
